@@ -137,6 +137,7 @@ section .section-page .title-section{
     flex-direction: column;
     height: 150px;
     align-items: center;
+    text-align: center;
     justify-content: center;
     text-transform: uppercase;
     font-weight: 100;
@@ -312,5 +313,41 @@ header.articulos .title{
         overflow: hidden;
         margin-bottom: 20px;
       }
+      iframe{
+          width: 100%;
+          left: 0;
+          height: auto;
+      }
 
+      header.articulos{
+          height: 500px;
+      }
+      header.articulos .title h2{
+        font-size: 30px;
+    }
+  }
+
+  .inter-nav{
+      padding: 10px 0px;
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+      align-items: center;
+      background: cornflowerblue;
+  }
+  .inter-nav ul{
+    list-style: none;
+  }
+  .inter-nav> ul> li {
+      color: white;
+  }
+  .inter-nav> ul> li a{
+      text-decoration: none;
+      color: white;
+      display: block;
+        padding: 10px 20px;
+        border-bottom: 1px solid white;
+  }
+  .inter-nav> ul> li> ul li a{
+      margin-left: 50px;
   }
