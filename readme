@@ -1,0 +1,22 @@
+Estilos generales
+
+
+Secciones
+1) todas las secciones debe estar contenida en el <section class="main">
+2) Para crear una nueva seccion se abre un <section class="section-page"
+3) Dentro del section-page se crea un <div class="title-section"> para el titulo de cada section, y se define con un h3, posterior un <div class="line">
+
+Articulos
+1) cada articulo debe estar dentro de un section-page, y dentro debe definir un <div class="section-content-*posicion*> donde iran los parrafos del articulo
+    1.1) La *posicion* puede ser: 
+        a) section-content-right: Alinia el articulo a la derecha y la imagen a la izquierda
+        b) section-content-left: Alinia el articulo a la izquierda y la imagen a la derecha
+        c) section-content-full: Coloca todo el contenido completo en pantalla, la imagen es opcional, pero si se desea colocar se le da la clase "full" a la imagen
+
+2) Para colocar una imagen a cada articulo se declara la etiqueta <img> en la misma etiqueta <article>, pero fuera del div class="section-content-*posicion*"
+
+
+Diagonal (Skew)
+
+1) Cada seccion debe definir la clase de fondo en el <section class="section-page">, para eso se añade una clase que diga si es light o dark
+2) inmediatemante se añade un <div class="skew-up>
